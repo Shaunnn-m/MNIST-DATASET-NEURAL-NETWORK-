@@ -9,8 +9,8 @@ from torchvision import datasets, transforms
 
 
 # Setup directory and download flags
-DATA_DIR = '.'
-download_dataset = False
+DATA_DIR = 'download'
+download_dataset = True
 
 # Transformation for the input data
 transform = transforms.Compose([
